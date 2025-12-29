@@ -13,7 +13,6 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "LXMT - Premium Fragrance Wholesale",
   description: "Professional perfume wholesale platform, providing high-quality perfume products and services for retailers and distributors.",
-  generator: "v0.app",
   icons: {
     icon: [
       {
@@ -23,11 +22,7 @@ export const metadata: Metadata = {
       {
         url: "/icon-dark-32x32.png",
         media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
+      }
     ],
     apple: "/apple-icon.png",
   },
