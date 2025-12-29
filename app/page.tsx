@@ -9,16 +9,14 @@ import { LanguageProvider } from "@/components/language-provider"
 
 export default function Page() {
   return (
-    <LanguageProvider>
-      <main className="min-h-screen">
-        <Header />
-        <Hero />
-        <Features />
-        <Products />
-        <Process />
-        <Contact />
-        <Footer />
-      </main>
-    </LanguageProvider>
+    <main className="min-h-screen">
+      <Header />
+      <Hero />
+      <Features />
+      <Products />
+      <Process />
+      <Contact />
+      <Footer />
+    </main>
   )
 }
