@@ -22,16 +22,16 @@ export function Header() {
           </div>
 
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#features" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <a href="/#features" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               {t.header.advantages}
             </a>
-            <a href="#products" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <a href="/#products" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               {t.header.products}
             </a>
-            <a href="#process" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <a href="/#process" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               {t.header.process}
             </a>
-            <a href="#contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <a href="/#contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               {t.header.contact}
             </a>
           </nav>
@@ -40,7 +40,7 @@ export function Header() {
             <Button variant="ghost" size="sm" onClick={toggleLanguage} className="w-12">
               {language === "en" ? "NL" : "EN"}
             </Button>
-            <a href="#contact">
+            <a href="/#contact">
               <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
                 {t.header.partner}
               </Button>
@@ -59,20 +59,20 @@ export function Header() {
 
         {isMenuOpen && (
           <nav className="md:hidden flex flex-col gap-4 mt-6 pb-4">
-            <a href="#features" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <a href="/#features" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               {t.header.advantages}
             </a>
-            <a href="#products" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <a href="/#products" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               {t.header.products}
             </a>
-            <a href="#process" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <a href="/#process" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               {t.header.process}
             </a>
-            <a href="#contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <a href="/#contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               {t.header.contact}
             </a>
             <div className="flex flex-col gap-2 pt-2">
-              <a href="#contact" className="w-full">
+              <a href="/#contact" className="w-full">
                 <Button size="sm" className="w-full bg-primary text-primary-foreground">
                   {t.header.partner}
                 </Button>
