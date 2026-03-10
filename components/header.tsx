@@ -34,6 +34,9 @@ export function Header() {
             <a href="/#contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               {t.header.contact}
             </a>
+            <a href="https://scent.lxmt.nl" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              {t.header.shop}
+            </a>
           </nav>
 
           <div className="hidden md:flex items-center gap-4">
@@ -70,6 +73,9 @@ export function Header() {
             </a>
             <a href="/#contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               {t.header.contact}
+            </a>
+            <a href="https://scent.lxmt.nl" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              {t.header.shop}
             </a>
             <div className="flex flex-col gap-2 pt-2">
               <a href="/#contact" className="w-full">

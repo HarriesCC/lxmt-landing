@@ -75,6 +75,16 @@ export function Footer() {
                   {t.header.contact}
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://scent.lxmt.nl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm"
+                >
+                  {t.header.shop}
+                </a>
+              </li>
             </ul>
           </div>
 
