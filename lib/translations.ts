@@ -7,6 +7,7 @@ export const translations = {
             products: "Products",
             process: "Process",
             contact: "Contact",
+            shop: "Shop",
             partner: "Become a Partner",
         },
         hero: {
@@ -111,6 +112,7 @@ export const translations = {
             products: "Producten",
             process: "Proces",
             contact: "Contact",
+            shop: "Winkel",
             partner: "Partner Worden",
         },
         hero: {
